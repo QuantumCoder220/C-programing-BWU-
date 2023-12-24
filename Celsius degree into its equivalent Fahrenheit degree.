@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+	float cel,fah;
+	printf("Enter temp in cel: ");
+	scanf("%f",&cel);
+	fah= (9.0/5.0)*cel+32;
+	printf("Temp in fer is: %.2f",fah);
+	return 0;
+}
