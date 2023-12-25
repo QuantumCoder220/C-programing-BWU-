@@ -1,0 +1,8 @@
+#include <stdio.h>
+ int main() {
+ int num = 183;
+ char str[10];
+ sprintf(str, "%d", num);
+ printf("Number as string: %s\n", str);
+ return 0;
+ }
